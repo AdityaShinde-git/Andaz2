@@ -48,7 +48,7 @@ const Doctors = () => {
       <Head>
         <title>Find Top Doctors | Health Finder</title>
         <meta name="description" content="Search and filter top-rated doctors by specialty and location." />
-        <link rel="canonical" href="http://localhost:3000/doctors" />
+        <link rel="canonical" href="https://andaz2.onrender.com/doctors" />
 
         
       </Head>
