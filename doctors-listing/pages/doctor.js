@@ -15,7 +15,7 @@ const Doctors = () => {
       setLoading(true);
       setError('');
       try {
-        const response = await axios.get('http://localhost:5000/list-doctor-with-filter', {
+        const response = await axios.get('https://doctorsassignment-backend.onrender.com/list-doctor-with-filter', {
           params: {
             ...filters,
             rating: filters.rating ? Number(filters.rating) : undefined
