@@ -28,7 +28,7 @@ const doctorSchema = new mongoose.Schema({
 const Doctor = mongoose.model('Doctor', doctorSchema);
 
 // API to add a doctor
-app.post('/add-doctor', async (req, res) => {
+app.post('https://doctorsassignment-backend.onrender.com/add-doctor', async (req, res) => {
     try {
       const { name, specialty, location, experience, rating } = req.body;
       const newDoctor = new Doctor({ name, specialty, location, experience, rating });
@@ -41,7 +41,7 @@ app.post('/add-doctor', async (req, res) => {
   });
 
 // API to list doctors with filters and pagination
-app.get('/list-doctor-with-filter', async (req, res) => {
+app.get('https://doctorsassignment-backend.onrender.com/list-doctor-with-filter', async (req, res) => {
     const { specialty, location, page = 1, limit = 10 } = req.query;
     const query = {};
     if (specialty) query.specialty = specialty;
