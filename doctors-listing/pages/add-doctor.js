@@ -72,7 +72,7 @@ const AddDoctor = () => {
       <Head>
         <title>Add/Registeration for Doctor | Health Finder</title>
         <meta name="description" content="Search and filter top-rated doctors by specialty and location." />
-        <link rel="canonical" href="http://localhost:3000/add-doctor" />
+        <link rel="canonical" href="https://andaz2.onrender.com/add-doctor" />
       </Head>
       <div style={{
         backgroundColor: 'white',
