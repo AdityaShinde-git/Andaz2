@@ -44,7 +44,7 @@ const AddDoctor = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/add-doctor', {
+      await axios.post('https://doctorsassignment-backend.onrender.com/add-doctor', {
         ...doctor,
         experience: Number(doctor.experience),
         rating: Number(doctor.rating),
